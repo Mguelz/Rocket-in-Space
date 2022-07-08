@@ -65,14 +65,16 @@ public class Rocket extends Actor
     }
     
     public void fase1to2() {
+        //do level 1 para o level 2 esta tudo certo porem o código tera que ser mudado
         if( pontos == 5) {
             Greenfoot.setWorld(new Fase2());
         }
     }
     
     public void fase2to3() {
-        if( pontos == 15) {
-            Greenfoot.setWorld(new Fase3());
-        }
+        //ao coletar 5 asteroides a fase se reiniciar
+        //if( pontos == 15) {
+           // Greenfoot.setWorld(new Fase3());
+        //}
     }
 }
