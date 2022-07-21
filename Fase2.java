@@ -2,9 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Fase2 extends World
 {
-    public Fase2()
+   public Fase2()
     {    
-        super(1150, 600, 1); 
+        super(1100, 600, 1); 
         
         addObject(new Rocket(),129 ,286);
         addObject(new Enemy(),1023 ,270);
@@ -25,5 +25,7 @@ public class Fase2 extends World
         addObject(new Asteroide(),33 ,31);
         addObject(new Asteroide(),55 ,71);
         addObject(new Asteroide(),39 ,10);
+        
+        
     }
 }

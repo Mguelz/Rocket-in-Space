@@ -1,11 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class MyWorld extends World
+public class FaseFinal extends World
 {
-    public MyWorld()
+    public FaseFinal()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1150, 600, 1); 
+        super(1100, 600, 1); 
         prepare();
     }
     
@@ -90,5 +90,51 @@ public class MyWorld extends World
         enemy6.setLocation(594,170);
         enemy7.setLocation(899,360);
         asteroide14.setLocation(529,460);
+        enemy.setLocation(960,10);
+        enemy7.setLocation(684,370);
+        rocket.setLocation(611,69);
+        removeObject(asteroide10);
+        rocket.setLocation(454,184);
+        removeObject(asteroide7);
+        enemy7.setLocation(680,441);
+        removeObject(asteroide13);
+        rocket.setLocation(585,277);
+        rocket.setLocation(501,361);
+        rocket.setLocation(253,342);
+        rocket.setLocation(59,559);
+        removeObject(asteroide3);
+        rocket.setLocation(69,551);
+        rocket.setLocation(303,344);
+        rocket.setLocation(80,71);
+        rocket.setLocation(191,239);
+        rocket.setLocation(340,262);
+        rocket.setLocation(376,286);
+        rocket.setLocation(377,286);
+        rocket.setLocation(314,147);
+        removeObject(asteroide8);
+        rocket.setLocation(638,236);
+        removeObject(asteroide19);
+        asteroide25.setLocation(1051,208);
+        removeObject(asteroide25);
+        removeObject(asteroide18);
+        enemy7.setLocation(953,250);
+        asteroide9.setLocation(848,317);
+        enemy7.setLocation(814,312);
+        enemy7.setLocation(945,477);
+        removeObject(asteroide17);
+        removeObject(asteroide16);
+        asteroide12.setLocation(843,502);
+        asteroide12.setLocation(843,500);
+        enemy7.setLocation(717,394);
+        rocket.setLocation(515,392);
+        rocket.setLocation(445,185);
+        rocket.setLocation(677,83);
+        removeObject(asteroide22);
+        enemy6.setLocation(620,53);
+        rocket.setLocation(677,234);
+        enemy.setLocation(853,121);
+        enemy7.setLocation(877,290);
+        removeObject(asteroide24);
+        rocket.setLocation(603,363);
     }
 }

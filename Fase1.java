@@ -8,15 +8,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Fase1 extends World
 {
-
     /**
      * Constructor for objects of class Fase1.
      * 
      */
     public Fase1()
     {    
-        super(1150, 600, 1); 
-        
+        super(1100, 600, 1); 
+
         addObject(new Rocket(),129 ,286);
         addObject(new Enemy(),1023 ,270);
         addObject(new Asteroide(),196 ,115);
@@ -24,5 +23,7 @@ public class Fase1 extends World
         addObject(new Asteroide(),563 ,309);
         addObject(new Asteroide(),1058 ,120);
         addObject(new Asteroide(),969 ,477);
+
+        
     }
 }
