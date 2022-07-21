@@ -8,6 +8,7 @@ public class Enemy extends Actor
         mover();
         virarAleatoriamente();
         virar360();
+        matarRocket();
     }
 
     public void redimencionarImagem() {
@@ -36,6 +37,8 @@ public class Enemy extends Actor
     public void matarRocket() {
         if (isTouching(Rocket.class)) {
             removeTouching(Rocket.class);
+            Greenfoot.stop();
+            getWorld().showText("The Enemy Touched You", 550, 300);
         }
     }
 }
