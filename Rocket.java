@@ -60,9 +60,9 @@ public class Rocket extends Actor
 
     public void fase1to2() {
         //do level 1 para o level 2 esta tudo certo porem o código tera que ser mudado
-        if( pontos == 20) {
-            Greenfoot.setWorld(new Fase2());
-        }
+        //if( pontos == 20) {
+            //Greenfoot.setWorld(new Fase2());
+        //}
     }
 
     public void finalDoJogo() {

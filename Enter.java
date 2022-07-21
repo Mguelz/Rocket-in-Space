@@ -21,7 +21,8 @@ public class Enter extends Actor
         if(mouse != null) {
             if(mouse.getActor() != null) {
                 if(mouse.getActor().getClass() == Enter.class && mouse.getButton() == 1) {
-                    Greenfoot.setWorld(new Fase1());
+                    //Greenfoot.setWorld(new Fase1()); (comando certo)
+                    Greenfoot.setWorld(new FaseFinal()); //(comando errado)enquanto o bug da fase infinita nao funciona
                 }
             }
         }

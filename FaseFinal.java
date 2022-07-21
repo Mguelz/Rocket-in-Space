@@ -136,5 +136,15 @@ public class FaseFinal extends World
         enemy7.setLocation(877,290);
         removeObject(asteroide24);
         rocket.setLocation(603,363);
+        rocket.setLocation(743,388);
+        rocket.setLocation(872,336);
+        rocket.setLocation(605,425);
+        rocket.setLocation(371,296);
+        enemy7.setLocation(775,409);
+        removeObject(enemy2);
+        enemy.setLocation(934,203);
+        enemy.setLocation(957,155);
+        rocket.setLocation(197,310);
+        rocket.setLocation(151,327);
     }
 }
