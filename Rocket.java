@@ -54,19 +54,20 @@ public class Rocket extends Actor
             removeTouching(Asteroide.class);
             getWorld().addObject(new Asteroide(),Greenfoot.getRandomNumber(1145) ,Greenfoot.getRandomNumber(590));
             pontos++;
-            getWorld().showText("Asteroides Coletados:"+pontos, 130, 20);
+            getWorld().showText("Asteroides Coletados:" + pontos, 130, 20);
         }
     }
-
+    
     public void fase1to2() {
         //do level 1 para o level 2 esta tudo certo porem o código tera que ser mudado
-        //if( pontos == 20) {
-            //Greenfoot.setWorld(new Fase2());
-        //}
+        // talvez tenha que usar o loop FOR
+        if( pontos == 20) {
+            Greenfoot.setWorld(new Fase2());
+        }
     }
-
+    
     public void finalDoJogo() {
-        if (pontos == 30) {
+        if (pontos == 50) {
             Greenfoot.stop();
             getWorld().showText("You Win, Congratulations", 550, 300);
         }
