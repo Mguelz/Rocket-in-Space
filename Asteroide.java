@@ -6,6 +6,7 @@ public class Asteroide extends Actor
     {
         mover();
         tocarBorda();
+        tocarEmSiMesmo();
     }
     
     public void mover() {
@@ -18,6 +19,12 @@ public class Asteroide extends Actor
     public void tocarBorda() {
         if (isAtEdge()) {
            turn(Greenfoot.getRandomNumber(181)); 
+        }
+    }
+    
+    public void tocarEmSiMesmo() {
+        if (isTouching(Asteroide.class)) {
+            turn(181);
         }
     }
 }

@@ -23,7 +23,5 @@ public class Fase1 extends World
         addObject(new Asteroide(),563 ,309);
         addObject(new Asteroide(),1058 ,120);
         addObject(new Asteroide(),969 ,477);
-
-        
     }
 }

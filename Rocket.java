@@ -13,6 +13,8 @@ public class Rocket extends Actor
         trocarImagem();
         fase1to2();
         finalDoJogo();
+        
+        
         }
 
     public void trocarImagem() {
